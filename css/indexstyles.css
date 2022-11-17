@@ -1,0 +1,128 @@
+:root {
+--brand-color:#212121;
+--secondary-color:#757575
+}
+body {
+font-family: 'Roboto', sans-serif; color: var(--brand-color);
+}
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+color: #000000;
+}
+.logoweb {
+color: #2196F3; 
+}
+.nav-list-item {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,1;
+letter-spacing: 0.02em;
+color: var(--brand-color);
+}
+.nav-list-item-link {
+color: var(--brand-color);
+text-decoration: none;
+}
+.nav-list-item-link:hover, .nav-list-item-link:focus {
+color: #2196F3;
+text-decoration: none;
+}
+.contact-links {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: var(--secondary-color);
+text-decoration: none;
+}
+.contact-links:hover, .contact-links:focus {
+color: #2196F3;
+text-decoration: none;
+}
+.page-title {
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+white-space: pre;
+}
+.title-box {
+    background: #2F303A;
+}
+.button-title {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.main-text {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+.main-text-title {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--brand-color);
+}
+.secondary-heading {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--brand-color);
+}
+.employees-names {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--brand-color)
+}
+.employees-positions {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+.footer-box {
+background-color:#2F303A;
+}
+.contact-list {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}

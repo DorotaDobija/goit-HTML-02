@@ -4,35 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/indexstyles.css">
     <title>WebStudio</title>
   </head>
   <body>
     <header>
       <div>
-        <a href="index.html"><span>Web</span>Studio</a>
+        <a class="logo" href="index.html"><span class="logoweb">Web</span>Studio</a>
         <nav>
-          <ul>
-            <li><a href="index.html">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">Kontakt</a></li>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a class="nav-list-item-link" href="index.html">Agencja</a></li>
+            <li class="nav-list-item"><a class="nav-list-item-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-list-item"><a class="nav-list-item-link" href="index.html">Kontakt</a></li>
           </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+        <a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
       </div>
     </header>
     <main>
       <section>
-        <div>
-          <h1>Efektywne rozwiązania dla waszego biznesu</h1>
-          <button type="button">Zamów usługę</button>
+        <div class="title-box">
+          <h1 class="page-title">Efektywne rozwiązania
+dla waszego biznesu</h1>
+          <button class="button-title" type="button">Zamów usługę</button>
         </div>
       </section>
       <section>
         <ul>
           <li>
-            <h4>Lorem ipsum</h4>
-            <p>
+            <h4 class="main-text-title" >Lorem ipsum</h4>
+            <p class="main-text">
               ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
               odio totam numquam vitae cumque a pariatur consequatur, ratione
               tempora dicta voluptas nemo at alias, odit et reiciendis quo
@@ -40,8 +45,8 @@
             </p>
           </li>
           <li>
-            <h4>Lorem ipsum</h4>
-            <p>
+            <h4 class="main-text-title" >Lorem ipsum</h4>
+            <p class="main-text">
               ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
               odio totam numquam vitae cumque a pariatur consequatur, ratione
               tempora dicta voluptas nemo at alias, odit et reiciendis quo
@@ -49,8 +54,8 @@
             </p>
           </li>
           <li>
-            <h4>Lorem ipsum</h4>
-            <p>
+            <h4 class="main-text-title" >Lorem ipsum</h4>
+            <p class="main-text">
               ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
               odio totam numquam vitae cumque a pariatur consequatur, ratione
               tempora dicta voluptas nemo at alias, odit et reiciendis quo
@@ -58,8 +63,8 @@
             </p>
           </li>
           <li>
-            <h4>Lorem ipsum</h4>
-            <p>
+            <h4 class="main-text-title" >Lorem ipsum</h4>
+            <p class="main-text">
               ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
               odio totam numquam vitae cumque a pariatur consequatur, ratione
               tempora dicta voluptas nemo at alias, odit et reiciendis quo
@@ -69,7 +74,7 @@
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="secondary-heading">Czym się zajmujemy</h2>
         <img
           src="images/computer.jpg"
           alt="praca na komputerze"
@@ -91,54 +96,54 @@
       </section>
       <section>
         <div>
-          <h2>Nasz zespół</h2>
-          <ul>
+          <h2 class="secondary-heading">Nasz zespół</h2>
+          <ul class="employees-list">
             <li>
-              <div>
+              <div class="employees-list-item">
                 <img
                   src="images/brownshirt.jpg"
                   alt="uśmiechnięty mężczyzna w brązowej koszuli"
                   width="270"
                   height="260"
                 />
-                <h3>John Doe</h3>
-                <p>Product Designer</p>
+                <h3 class="employees-names">John Doe</h3>
+                <p class="employees-positions">Product Designer</p>
               </div>
             </li>
             <li>
-              <div>
+              <div class="employees-list-item">
                 <img
                   src="images/woman.jpg"
                   alt="uśmiechnięta kobieta w marynarce"
                   width="270"
                   height="260"
                 />
-                <h3>John Doe</h3>
-                <p>Frontend Developer</p>
+                <h3 class="employees-names">John Doe</h3>
+                <p class="employees-positions">Frontend Developer</p>
               </div>
             </li>
             <li>
-              <div>
+              <div class="employees-list-item">
                 <img
                   src="images/whiteshirt.jpg"
                   alt="uśmiechnięty mężczyzna w białej koszuli"
                   width="270"
-                  height="260"
+                  height="260"s
                 />
-                <h3>John Doe</h3>
-                <p>Marketing</p>
+                <h3 class="employees-names">John Doe</h3>
+                <p class="employees-positions">Marketing</p>
               </div>
             </li>
             <li>
-              <div>
+              <div class="employees-list-item">
                 <img
                   src="images/tshirt.jpg"
                   alt="uśmiechnięty mężczyzna w czarnej koszulce"
                   width="270"
                   height="260"
                 />
-                <h3>John Doe</h3>
-                <p>UI Designer</p>
+                <h3 class="employees-names">John Doe</h3>
+                <p class="employees-positions">UI Designer</p>
               </div>
             </li>
           </ul>
@@ -146,13 +151,13 @@
       </section>
     </main>
     <footer>
-      <div>
-        <a href="index.html"><span>Web</span>Studio</a>
+      <div class="footer-box">
+        <a class="logo" href="index.html"><span class="logoweb">Web</span>Studio</a>
         <address>
-          <ul>
+          <ul class="contact-list">
             <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>info@example.com</li>
-            <li>+48 111 111 111</li>
+            <li><a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact-links" href="tel:+48111111111">+48 111 111 111</a></li>
           </ul>
         </address>
       </div>

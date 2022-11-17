@@ -1,19 +1,19 @@
 :root {
-    --brand-color:#212121;
-    --secondary-color:#757575
+--brand-color:#212121;
+--secondary-color:#757575
 }
 body {
 font-family: 'Roboto', sans-serif; color: var(--brand-color);
 }
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    color: #000000;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+color: #000000;
 }
 .logoweb {
-   color: #2196F3; 
+color: #2196F3; 
 }
 .nav-list-item {
 font-family: 'Roboto', sans-serif;
@@ -24,12 +24,12 @@ letter-spacing: 0.02em;
 color: var(--brand-color);
 }
 .nav-list-item-link {
-    color: var(--brand-color);
-    text-decoration: none;
+color: var(--brand-color);
+text-decoration: none;
 }
 .nav-list-item-link:hover, .nav-list-item-link:focus {
-    color: #2196F3;
-    text-decoration: none;
+color: #2196F3;
+text-decoration: none;
 }
 .contact-links {
 font-family: 'Roboto', sans-serif;
@@ -41,8 +41,8 @@ color: var(--secondary-color);
 text-decoration: none;
 }
 .contact-links:hover, .contact-links:focus {
-    color: #2196F3;
-    text-decoration: none;
+color: #2196F3;
+text-decoration: none;
 }
 .button-list-item {
 font-family: 'Roboto', sans-serif;
@@ -53,6 +53,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--brand-color);
 background-color: #F5F4FA
+cursor: pointer
 }
 .button-list-item:hover, .button-list-item:focus {
 color: #FFFFFF;
