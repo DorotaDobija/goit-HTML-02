@@ -20,6 +20,7 @@ font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1,1;
+letter-spacing: 0.02em;
 color: var(--brand-color);
 }
 .nav-list-item-link {
@@ -35,6 +36,7 @@ font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
+letter-spacing: 0.02em;
 color: var(--secondary-color);
 text-decoration: none;
 }
@@ -42,4 +44,17 @@ text-decoration: none;
     color: #2196F3;
     text-decoration: none;
 }
- 
+.button-list-item {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--brand-color);
+background-color: #F5F4FA
+}
+.button-list-item:hover, .button-list-item:focus {
+color: #FFFFFF;
+background-color: #2196F3
+}
