@@ -1,6 +1,8 @@
 :root {
     --brand-color: #212121;
-    --secondary-color: #757575
+    --secondary-color: #757575;
+    --focus-color: #2196F3;
+    --white-color: #FFFFFF;
 }
 
 body {
@@ -17,7 +19,7 @@ body {
 }
 
 .logoweb {
-    color: #2196F3;
+    color: var(--focus-color);
 }
 
 .nav-list-item {
@@ -36,7 +38,7 @@ body {
 
 .nav-list-item-link:hover,
 .nav-list-item-link:focus {
-    color: #2196F3;
+    color: var(--focus-color);
     text-decoration: none;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .contact-links:hover,
 .contact-links:focus {
-    color: #2196F3;
+    color: var(--focus-color);
     text-decoration: none;
 }
 
@@ -63,7 +65,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
     white-space: pre;
 }
 
@@ -79,8 +81,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--white-color);
+    background: var(--focus-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
@@ -108,7 +110,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.employees-names {
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -116,7 +118,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.employees-positions {
+.team-job {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -132,7 +134,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .button-list-item {
     font-family: inherit;
@@ -148,8 +150,8 @@ body {
 
 .button-list-item:hover,
 .button-list-item:focus {
-    color: #FFFFFF;
-    background-color: #2196F3
+    color: var(--white-color);
+    background-color: var(--focus-color)
 }
 
 .picture-caption {
@@ -164,4 +166,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-color)
+}
+.team-list-item {
+    list-style-type: none;
 }
