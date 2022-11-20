@@ -170,5 +170,5 @@ body {
   color: var(--secondary-color);
 }
 .list {
-  list-style-type: none;
-}
+    list-style-type: none;
+  }
